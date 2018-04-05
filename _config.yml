@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 name: Adrian Davila
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
