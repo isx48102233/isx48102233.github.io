@@ -3,6 +3,8 @@ body {
     width: 80%;
 }
 nav ul, footer {
+    margin: 0;
+    padding: 0;
     font-family: 'Bangers';
     list-style: none;
     font-weight: bold;
@@ -34,9 +36,6 @@ p {
     line-height: 1.2em;
     color: #333;
 }
-footer {
-    text-align: center;
-    margin: 3px;
 }
 img.footer_img { 
     width: 55px;
