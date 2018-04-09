@@ -37,6 +37,8 @@ p {
     line-height: 1.2em;
     color: #333;
 }
+footer {
+    text-align: center;
 }
 img.footer_img { 
     width: 55px;
