@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Bangers';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -29,7 +29,7 @@ nav ul li a:hover {
 }
 h1, h3 {
     font-size: 3em;
-    font-family:'Chalkduster';
+    font-family: 'Bangers';
 }
 p {
     font-size: 1.3em;
@@ -40,8 +40,8 @@ footer {
     text-align: center;
 }
 img.footer_img { 
-    width: 75px;
-    height: 75px;    
+    width: 60px;
+    height: 60px;    
 }
 
 nav ul li a {
