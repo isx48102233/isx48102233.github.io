@@ -29,7 +29,7 @@ nav ul li a:hover {
     cursor: pointer;
     background-color: #87CEFA;
 }
-h1, h3 {
+h1, h2, h3, h4{
     font-family: 'Bangers';
     color: #20B2AA;
 }
@@ -52,7 +52,4 @@ nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-div ul.estudis, div ul.estudis ul.estudis {
-    list-style:none;
 }
