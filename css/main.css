@@ -12,6 +12,7 @@ nav ul, footer {
     padding: 0;
     overflow: hidden;
     background-color: 	#00BFFF;
+    border-radius: 50px 50px 50px 50px;
 }
 nav ul li, footer ul li {
     display: inline;
