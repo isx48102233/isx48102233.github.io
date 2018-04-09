@@ -19,6 +19,7 @@ nav ul li, footer ul li {
     display: inline-block;
     text-align: center;
     float: left;
+    font-size: 2em;
 }
 a {
     text-decoration: none;
