@@ -11,7 +11,7 @@ nav ul, footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: 	#00BFFF;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -20,11 +20,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: 	#20B2AA;
 }
 a:hover {
     cursor: pointer;
-    background-color: #111;
+    background-color: #87CEFA;
 }
 h1 {
     font-size: 3em;
