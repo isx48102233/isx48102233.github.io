@@ -12,29 +12,28 @@ nav ul, footer {
     padding: 0;
     overflow: hidden;
     background-color: 	#00BFFF;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 30px 30px 30px 30px;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     float: left;
-    text-align: center;
 }
 a {
     text-decoration: none;
     color: 	#20B2AA;
 }
-a:hover {
+nav ul li a:hover {
     cursor: pointer;
     background-color: #87CEFA;
 }
 h1, h3 {
     font-size: 3em;
-    font-family:'Chalkduster, fantasy';
+    font-family:'Chalkduster';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.2em;
     color: #333;
 }
 footer {
