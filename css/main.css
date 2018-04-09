@@ -13,9 +13,10 @@ nav ul, footer {
     overflow: hidden;
     background-color: 	#00BFFF;
     border-radius: 30px 30px 30px 30px;
+    display: inline-block;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
     float: left;
 }
