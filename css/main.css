@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul, footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -31,13 +31,9 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align: center;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+img.footer_img { 
+    width: 50px;
+    height: 50px;    
 }
