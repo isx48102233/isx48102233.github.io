@@ -32,9 +32,9 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-footer img { 
     text-align: center;
+}
+a.footer_img { 
     width: 50px;
     weight: 50px;    
 }
