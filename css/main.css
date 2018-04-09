@@ -5,6 +5,7 @@ body {
 nav ul, footer {
     margin: 0;
     padding: 0;
+    padding: 0px;
     font-family: 'Bangers';
     list-style: none;
     font-weight: bold;
