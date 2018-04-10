@@ -41,6 +41,10 @@ p {
 div a.bancv {
     float:right;
 }
+.flag {
+    widht:20px;
+    height:20px;
+}
 footer {
     text-align: center;
 }
