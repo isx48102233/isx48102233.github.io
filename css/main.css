@@ -46,6 +46,9 @@ div a.bancv {
     height:20px;
     margin-left: 5px;
 }
+.Estudis{
+    list-style-type: none;
+}
 footer {
     text-align: center;
 }
