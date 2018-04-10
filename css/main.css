@@ -38,6 +38,9 @@ p {
     line-height: 1.2em;
     color: #333;
 }
+div a.bancv {
+    float:right;
+}
 footer {
     text-align: center;
 }
