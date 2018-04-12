@@ -86,7 +86,7 @@ Aquesta pàgina es molt senzilla. Consta de:
         <p>Presento la meva web feta bàsicament amb GitHub Pages per al M09 del cicle formatiu de grau superior d'ASIX (Administració de Sistemes i Xarxes) a l'Escola del Treball de Barcelona (EDT) durant el curs 2017-2018.</p>
 4. Link a info personal
 
-        <p>Si vols saber una mica més sobre mi... <a href="/personal">CLICK!</a></p>
+        <p>Si vols saber una mica més sobre mi... <a target="_blank" href="/personal">CLICK!</a></p>
 5. Imatge de portada
 
         <img src=/images/portada.jpg width=100%>
