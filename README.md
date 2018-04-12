@@ -158,5 +158,6 @@ Per a incorporar una font *no oficial* oferida per Google hem d'incorporar el cs
             color: #20B2AA;
             }
 
-Fins aquí la meva pàgina web. Espero que us agradi i si teniu qualsevol *feedback* podeu contactar amb mi 
+Fins aquí la meva pàgina web. Espero que us agradi i si teniu qualsevol *feedback* podeu contactar amb mi:
+
 [ACCEDEIX (Recomenat amb Google Chrome)](https://isx48102233.github.io/)
