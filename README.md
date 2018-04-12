@@ -28,7 +28,7 @@ En el meu cas ho explico a continuació:
 
 ## Creació de plantilles
 
-Utilitzarem una platilla per a les pàgines de la web. Es una plantilla anomenada default.html allotjada a la carpeta **\_layout**. En aquesta plantilla el que farem es incorporar el **\<head>**, el **\<body>** amb la **barra de navegació** i el **\<footer>**.
+Utilitzarem una platilla per a les pàgines de la web. Es una plantilla anomenada default.html allotjada a la carpeta **\_layout**. En aquesta plantilla el que farem es incorporar el **\<head>** (on hi serà el **main.css**), el **\<body>** amb la **barra de navegació** i el **\<footer>**.
 
 ### HEAD
         <head>
@@ -110,7 +110,51 @@ D'aquesta pàgina resaltar l'introducció dels CV en pdf mitjançant unes bander
         <a class=bancv target=_blank href=/cv/cvadridavilaesp.pdf><img class=flag src=/images/esp.png>&nbsp;</a><a class=bancv target=_blank href=/cv/cvadridavilacat.pdf><img class=flag src=/images/cat.png></a>
 
 ## Edició de css
-### Barra de navegació
-### Peu de pàgina
+Tot el css incorporat a la plantilla es a la carpeta **css** a l'archiu **main.css**.
+### Barra de navegació i peu de pàgina
+Per a la barra de navegació / peu de pàgina he fet varis canvis importants a css d'on destacaria:
+* Llista sense style
+* Cantonades amb cercle
+* Display: inline-block
+* Text alinieat al centre
+        
+        nav ul, footer {
+        list-style: none;
+        list-style-type: none;
+        overflow: hidden;
+        border-radius: 20px 20px 20px 20px;
+        }
+        
+        nav ul li, footer ul li {
+        display: inline-block;
+        text-align: center;
+        float: left;
+}
+### Hover
+De no ser per aquest atribut, no sabriem mai quan i on hi ha un enllaç, per tant veig important destacar:
+* Canvi de cursor
+* Color diferent
+        
+        nav ul li a:hover {
+        cursor: pointer;
+        background-color: #87CEFA;
+        }
+        
 ### Font
-### 
+Per a incorporar una font *no oficial* oferida per Google hem d'incorporar el css corresponent dins del **Head** dels documents on s'utilitza. En aquest cas la font s'utilitza a totes ja que pertany a la barra de navegació, present a cadascuna de les pàgines:
+* Plantilla:
+        
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+* CSS:
+    * Barra de navegació i peu de pàgina:
+    
+            nav ul, footer {
+            font-family: 'Bangers';
+            }
+    * Títols:        
+        
+            h1, h2, h3, h4{
+            font-family: 'Bangers';
+            color: #20B2AA;
+            }
+
